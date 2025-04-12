@@ -211,3 +211,4 @@ print("cycle: ",is_there_a_cycle(a))
 
 
 print("Linklist")
+print("Linklist")
