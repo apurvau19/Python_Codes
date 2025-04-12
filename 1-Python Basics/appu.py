@@ -208,3 +208,6 @@ def is_there_a_cycle(head):
 # displayList(a)
 
 print("cycle: ",is_there_a_cycle(a))
+
+
+print("Linklist")
