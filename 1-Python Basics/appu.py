@@ -211,4 +211,19 @@ print("cycle: ",is_there_a_cycle(a))
 
 
 print("Linklist")
-print("Linklist")
+
+
+
+
+numbers=[1,2,2,3,3,3,4,4,4,4]
+frequency={}
+i=0
+for elem in numbers:
+    if elem in frequency.keys():
+        val = frequency.get(elem)
+        frequency[elem] = val+1
+    else:
+        frequency[elem]=1
+
+
+print(frequency)
